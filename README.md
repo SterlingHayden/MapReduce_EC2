@@ -42,5 +42,6 @@
 2. 'hdfs dfs -mkdir -p WordCount/input'
 3. 'hdfs dfs -put input WordCount/input'
 4. 'hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar wordcount WordCount/input WordCount/output' **will run Mapreduce**
+5. 'cd WordCount/output/' and then 'cat part-r-00000' to see the results
 
 Now you can run MapReduce!
