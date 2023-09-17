@@ -1,6 +1,6 @@
 # Executing a MapReduce Algorithm with AWS EC2  
 ### The steps are as follows:  
-1 - launch an EC2 virtual machine instance  
+1. launch an EC2 virtual machine instance  
 2 - choose AMI == Ubuntu 20.04  
 3 - create Key Pair  
 4 - connect to EC2  
